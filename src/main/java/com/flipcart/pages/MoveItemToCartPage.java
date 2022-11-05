@@ -13,8 +13,6 @@ public class MoveItemToCartPage extends CommonMethods{
 		super();
 	}
 	
-	@FindBy(xpath = "//a[text()='S']")
-	WebElement itemsmallsize;
 	
 	@FindBy(xpath = "//button[@class='_2KpZ6l _2U9uOA _3v1-ww']")
 	WebElement addtocart;
